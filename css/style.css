@@ -28,7 +28,7 @@ MOBILE-FIRST STYLING BEGINS HERE
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
-/*
+
 body {
    font-family: Helvetica, Arial, sans-serif;
    font-size: 100%;
@@ -83,7 +83,6 @@ header {
    background: #e9e9e9;
    padding: 3em 1em;
    text-align: center;
-   border-top: 0.25em solid #f03;
 }
 
 header p {
@@ -107,6 +106,7 @@ blockquote {
 section img {
    background: #e9e9e9;
    margin-top: 1.5em;
+   width: 100%;
    -webkit-border-radius: 2em;
       -moz-border-radius: 2em;
            border-radius: 2em;
@@ -118,13 +118,20 @@ footer#credits {
    color: white;
    padding: 2em;
 }
-*/
+
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - 
 MEDIA QUERIES FOR LARGER BREAKPOINTS BEGIN HERE
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
-@media screen and (min-width: ) {
-
+@media screen and (min-width: 800px) {
+   section {
+      width: 30.714285714286%;
+      margin-right: 3.928571428571%;
+      float: left;
+   }
+   section:last-child {
+      margin-right: 0;
+   }
 }
