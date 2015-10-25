@@ -1,0 +1,32 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 8e54ca6..4e2a96a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -23,20 +23,16 @@[m
+       <p>"Time travel into the indefinite future is consistent with the laws of nature."</p>[m
+ [m
+       <footer>[m
+[31m-         <a href="http://www.pbs.org/wgbh/nova/physics/Sagan-Time-Travel.html"> Carl Sagan ()</a>[m
+[32m+[m[32m          - <a href="http://www.pbs.org/wgbh/nova/physics/Sagan-Time-Travel.html">Carl Sagan</a>[m
+       </footer>[m
+    </blockquote>[m
+       [m
+    <div id="main" role="main">[m
+          [m
+[31m-         IMAGE: wormhole.png[m
+[31m-[m
+[31m-         TITLE: Using Wormholes[m
+[31m-[m
+[31m-         SHORT DESCRIPTION:[m
+[31m-         There is no observational evidence for wormholes, but on a theoretical level there are valid solutions to the equations of the theory of general relativity which contain wormholes. Because of its robust theoretical strength, a wormhole is also known as one of the great physics metaphors for teaching general relativity.[m
+[31m-[m
+[31m-         LINK: Learn More[m
+[32m+[m[32m         <img src="imgs/wormhole.png" alt="Wormhole">[m
+[32m+[m[32m         <h2>Using Wormholes</h2>[m
+[32m+[m[32m         <p>There is no observational evidence for wormholes, but on a theoretical level there are valid solutions to the equations of the theory of general relativity which contain wormholes. Because of its robust theoretical strength, a wormhole is also known as one of the great physics metaphors for teaching general relativity.[m
+[32m+[m[32m            <a href="#">Learn More</a></p>[m
+       [m
+       <section>[m
+          <img src="imgs/time-dilation.png" alt="Time Dilation">[m
+warning: LF will be replaced by CRLF in index.html.
+The file will have its original line endings in your working directory.
