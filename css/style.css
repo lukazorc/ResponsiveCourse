@@ -126,6 +126,10 @@ MEDIA QUERIES FOR LARGER BREAKPOINTS BEGIN HERE
 - - - - - - - - - - - - - - - - - - - - - - - - */
 
 @media screen and (min-width: 800px) {
+   #main {
+      margin-left: 10%;
+      margin-right: 10%;
+   }
    section {
       width: 30.714285714286%;
       margin-right: 3.928571428571%;
@@ -133,5 +137,9 @@ MEDIA QUERIES FOR LARGER BREAKPOINTS BEGIN HERE
    }
    section:last-child {
       margin-right: 0;
+   }
+   blockquote {
+      padding: 1em;
+      background: url(../imgs/noise.jpg) repeat fixed;
    }
 }
